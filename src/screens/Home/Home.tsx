@@ -9,7 +9,7 @@ import { ButtonApp } from "../../components/ButtonApp/ButtonApp";
 
 export default function Home(){
     return(
-        <ImageBackground source={background} style={styles.appContainer}>
+        <ImageBackground source={background} style={styles.appContainer} resizeMode="cover">
             <View style={styles.overlay} />
 
             {/* <Text style={{backgroundColor: '#d4d3c4', padding: 5, fontSize: 15, marginBottom: 30}}>Generate a secure password</Text> */}

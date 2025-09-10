@@ -4,9 +4,13 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
     appContainer: {
       flex: 1,
+      width: '100%',  
+      height: '100%',
       backgroundColor: '#fff',
       alignItems: 'center',
       justifyContent: 'center',
+      borderWidth:1,
+      overflow: 'hidden'
     },
     logoContainer: {
       width: '80%',
