@@ -11,7 +11,7 @@ export function TextInputApp(props:TextInputAppProps) {
     <TextInput 
       style={styles.inputer} 
       placeholder='pass'
-      placeholderTextColor='#000000'
+      placeholderTextColor='#ffffff'
       value={props.pass}
     />
   );
