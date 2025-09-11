@@ -53,6 +53,7 @@ export function ButtonApp() {
         step={1}
         value={length}
         onValueChange={(length) => setLength(length)}
+        thumbTintColor='#b8f132'
         />
     </>
     );
