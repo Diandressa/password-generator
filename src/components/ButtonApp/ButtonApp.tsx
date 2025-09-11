@@ -34,7 +34,7 @@ export function ButtonApp() {
             onPress={handleCopyButton}
             style={styles.button}
         >
-            <Text style={styles.text}>💾 COPY</Text>
+            <Text style={styles.text}>{'\u{1F4BE} COPY'}</Text>
         </Pressable>
 
         <Text style={{color: '#fff', paddingTop: 20}}>Password Length:</Text>
