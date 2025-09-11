@@ -11,6 +11,7 @@ export const styles = StyleSheet.create({
       borderRadius: 4,
       elevation: 3,
       marginTop: 10,
+      flexDirection: 'row'
   },
   text: {
     fontSize: 16,
