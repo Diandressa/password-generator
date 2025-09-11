@@ -10,16 +10,16 @@
     "vercel-build": "npx expo export"
   },
   "dependencies": {
+    "@expo/metro-runtime": "~5.0.4",
     "@react-native-community/slider": "^5.0.1",
-    "expo": "~53.0.22",
+    "expo": "^54.0.1",
     "expo-clipboard": "~7.1.5",
     "expo-status-bar": "~2.2.3",
+    "expo-updates": "~0.28.17",
     "react": "19.0.0",
-    "react-native": "0.79.6",
     "react-dom": "19.0.0",
-    "react-native-web": "^0.20.0",
-    "@expo/metro-runtime": "~5.0.4",
-    "expo-updates": "~0.28.17"
+    "react-native": "0.79.6",
+    "react-native-web": "^0.20.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
