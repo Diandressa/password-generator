@@ -419,5 +419,3 @@ __d(function(g,r,i,a,m,e,d){var t=r(d[0]);Object.defineProperty(e,"__esModule",{
 __d(function(g,r,i,a,m,e,d){Object.defineProperty(e,"__esModule",{value:!0}),e.constants=void 0;var _=r(d[0]);e.constants={SLIDER_DEFAULT_INITIAL_VALUE:0,MARGIN_HORIZONTAL_PADDING:.05,STEP_NUMBER_TEXT_FONT_SMALL:8,STEP_NUMBER_TEXT_FONT_BIG:12,LIMIT_MIN_VALUE:Number.MIN_SAFE_INTEGER,LIMIT_MAX_VALUE:Number.MAX_SAFE_INTEGER,DEFAULT_STEP_RESOLUTION:'android'===_.Platform.OS?128:1e3}},356,[115]);
 __r(3);
 __r(0);
-//# sourceMappingURL=/_expo/static/js/web/index-107b25056bbf87cd949e7a3dc64f27a9.js.map
-//# debugId=aed517fa-750a-4913-ac4a-666a8ed057f5
