@@ -1,5 +1,5 @@
-import React, { use, useState } from 'react';
-import { Text, Pressable } from 'react-native';
+import React, { useState } from 'react';
+import { Text, Pressable, Animated } from 'react-native';
 import { styles } from './ButtonAppStyles';
 import { TextInputApp } from '../TextInputApp/TextInputApp';
 import generatePass from '../services/passwordService';
@@ -8,7 +8,7 @@ import Slider from '@react-native-community/slider';
 
 export function ButtonApp() {
     const [pass, setPass] = useState('');
-    const [length, setLength] = useState(3)
+    const [length, setLength] = useState(3);
 
     function handleGenerateButton(){
         let generateToken = generatePass(length)
@@ -25,14 +25,24 @@ export function ButtonApp() {
         
         <Pressable 
             onPress={handleGenerateButton}
-            style={styles.button}
+            style={( {pressed} ) => [styles.button, 
+                {
+                    opacity: pressed ? 0.7 : 1,
+                    transform: [{scale : pressed ? 0.9 : 1}],
+                }
+            ]}
         >
             <Text style={styles.text}>GENERATE</Text>
         </Pressable>
 
         <Pressable 
             onPress={handleCopyButton}
-            style={styles.button}
+            style={( {pressed} ) =>[styles.button, 
+                {
+                    opacity: pressed ? 0.7 : 1,
+                    transform: [{scale : pressed ? 0.9 : 1}],
+                }
+            ]}
         >
             <Text style={{ marginRight: 5 }}>💾</Text>
             <Text style={styles.text}>COPY</Text>
