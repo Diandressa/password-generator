@@ -48,13 +48,13 @@ Estou disponibilizando para testes de duas formas:
 npm install
 ```
 
-5.  Inicie o projeto:
+3.  Inicie o projeto:
 
 ```bash
 npm run start
 ```
 
-6.  Na tela do **Metro Bundler**, pressione:
+4.  Na tela do **Metro Bundler**, pressione:
 
       - `a` → para abrir no **Android Studio Emulator**
       - Ou escaneie o QR Code no **Expo Go** pelo celular.
